@@ -43,6 +43,7 @@ public class Pendaftaran extends Abstrak {
         int penghasilan = sc.nextInt();
         int SPP = 0;
 
+        //Percabangan untuk menentukan SPP
         if (penghasilan <= 5000000) {
             SPP = 200000;        
         }
