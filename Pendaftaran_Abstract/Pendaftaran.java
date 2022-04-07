@@ -39,7 +39,8 @@ public class Pendaftaran extends Abstrak {
         String pekerjaan1 = con.readLine();
         System.out.println("Masukkan Pekerjaan Ibu: ");
         String pekerjaan2 = con.readLine();
-        System.out.println("Masukkan Penghasilan OrangTua");
+        System.out.println("Masukkan Penghasilan OrangTua: ");
+        System.out.println("");
         int penghasilan = sc.nextInt();
         int SPP = 0;
 
